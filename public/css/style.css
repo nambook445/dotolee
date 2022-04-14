@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+/* 시각 장애인을 위한 css */
+.blind {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
+/*  */
+.center-align {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+div#header-search h1 {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  background: url(../asset/favicon.ico) no-repeat;
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+div#header-search a {
+  width: 32px;
+  height: 32px;
+  text-decoration: none;
+}
+
+div#header-search h2 {
+  display: none;
+}
+
+div#header-search fieldset {
+  display: inline-block;
+  width: 520px;
+  height: 32px;
+  padding: 0;
+  border: 2px solid #03cf5d;
+  position: relative;
+}
+div#header-search fieldset input {
+  border: none;
+  outline: none;
+}
+div#header-search fieldset button {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+  background: #03cf5d;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div#header-search fieldset button span {
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+
+div#header-tags {
+  float: right;
+}
+div#header-tags a {
+  display: inline-block;
+  color: #888;
+}
+
+nav ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
